@@ -1,0 +1,12 @@
+celeba
+cifar10
+checkpoints
+out
+samples.jpg
+*npy
+*tar
+*~
+*swp
+*swo
+**__pycache__
+
