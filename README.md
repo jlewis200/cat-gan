@@ -18,7 +18,7 @@ specified with the `--device` option (ie. `--device cuda:0`).  See [this](https:
 ## Train a model
 
 ### Download desired datasets
- - Cat Faces - Download from [here](https://www.kaggle.com/datasets/spandan2/cats-faces-64x64-for-generative-models), extract the files, and place `cats/` directory in `~/datasets/cat_faces/` directory like so:  `~/datasets/cats/cat_faces/`.
+ - Cat Faces - Download from [here](https://www.kaggle.com/datasets/spandan2/cats-faces-64x64-for-generative-models), extract the files, and place `cats/` directory in `~/datasets/cat_faces/` directory like so:  `~/datasets/cat_faces/cats/[IMG].jpg`.
 
 ### Train from scratch
 `python3 gan.py --config cat-faces --train --batch-size 64`
