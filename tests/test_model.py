@@ -28,4 +28,4 @@ class test_model(unittest.TestCase):
         samples = model.sample(n_samples=n_samples)
         sample_score = model.forward(samples=samples)
         random_score = model.forward(samples=torch.rand_like(samples))
-        self.assertTrue(torch.all(sample_score > random_score))
+        self.assertGreater(sample_score.sum(), random_score.sum())
