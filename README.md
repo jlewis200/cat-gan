@@ -13,7 +13,7 @@ specified with the `--device` option (ie. `--device cuda:0`).  See [this](https:
 `python3 get_checkpoints.py`
 
 ## Sample from a model
-`python3 gan.py --config cat-faces --checkpoint checkpoints/cat_faces_pretrained.pt --random 8 --temp 1`
+`python3 gan.py --config cat-faces --checkpoint checkpoints/cat_faces_pretrained.pt --sample 8 --temp 1`
 
 ## Train a model
 
